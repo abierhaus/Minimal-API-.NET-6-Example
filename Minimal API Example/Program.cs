@@ -18,6 +18,8 @@ customers.Add(new Customer(1, "Sabine", "Smith"));
 
 
 app.MapGet("/", () => new Customer(1, "Peter", "Drucker"));
+
+
 app.MapGet("/{id}", (int id) =>
 {
     return customers.FirstOrDefault(x => x.Id == id);
