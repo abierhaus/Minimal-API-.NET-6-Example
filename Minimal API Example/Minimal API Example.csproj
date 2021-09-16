@@ -1,0 +1,9 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <RootNamespace>Minimal_API_Example</RootNamespace>
+  </PropertyGroup>
+
+</Project>
